@@ -1,0 +1,1088 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "provider": "OpenAI",
+    "category": [
+      "text",
+      "coding"
+    ],
+    "gridSpan": "large",
+    "logoUrl": "./assets/logos/openai.svg",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "previewImage": "./assets/previews/chatgpt.jpg",
+    "officialUrl": "https://chatgpt.com",
+    "pricingModel": "Freemium",
+    "localRun": false,
+    "tags": [
+      "Multimodal",
+      "Voice",
+      "Canvas",
+      "o-series"
+    ],
+    "i18n": {
+      "en": {
+        "tagline": "The generalist that set the pace — reasoning, voice, vision and canvas in one surface.",
+        "description": "ChatGPT pairs OpenAI's frontier models with a polished workspace: live voice, camera input, image generation, code execution and collaborative Canvas documents. The o-series adds deliberate step-by-step reasoning for math, science and complex planning, while memory and connectors keep context across sessions.",
+        "capabilities": [
+          "Multimodal chat across text, image, audio and screen sharing",
+          "Deep reasoning with the o-series for hard math and science",
+          "Canvas for long-form writing and inline code edits",
+          "Custom GPTs, connectors and project memory",
+          "Voice mode with natural, real-time conversation"
+        ],
+        "useCases": [
+          "Draft a product spec, then pressure-test the architecture with o-series reasoning",
+          "Turn a whiteboard photo into a working React prototype",
+          "Rehearse a pitch in voice mode and get line-by-line feedback"
+        ],
+        "pros": [
+          "Best-in-class breadth: one tool for writing, code, images and voice",
+          "Mature ecosystem of GPTs, connectors and mobile apps",
+          "Fast iteration with Canvas and live voice"
+        ],
+        "cons": [
+          "Deep reasoning modes can be slower and rate-limited",
+          "Model picker terminology is confusing for newcomers",
+          "Long conversations occasionally drift from early constraints"
+        ],
+        "benchmarks": {
+          "coding": 9,
+          "reasoning": 9,
+          "creativity": 8,
+          "multimodality": 10,
+          "speed": 8
+        }
+      },
+      "ru": {
+        "tagline": "Универсал, задавший темп: рассуждения, голос, зрение и Canvas в одном окне.",
+        "description": "ChatGPT объединяет фронтирные модели OpenAI с удобным рабочим пространством: живой голос, камера, генерация изображений, исполнение кода и совместные документы Canvas. Линейка o-series добавляет пошаговые рассуждения для математики, науки и сложного планирования, а память и коннекторы сохраняют контекст между сессиями.",
+        "capabilities": [
+          "Мультимодальный чат: текст, изображения, аудио и экран",
+          "Глубокие рассуждения o-series для сложной математики и науки",
+          "Canvas для длинных текстов и правок кода",
+          "Кастомные GPT, коннекторы и память проектов",
+          "Голосовой режим с естественным диалогом в реальном времени"
+        ],
+        "useCases": [
+          "Набросать спецификацию продукта и проверить архитектуру через рассуждения o-series",
+          "Превратить фото доски в рабочий прототип на React",
+          "Отрепетировать питч в голосовом режиме и получить правки по репликам"
+        ],
+        "pros": [
+          "Лучшая широта: письмо, код, изображения и голос в одном инструменте",
+          "Зрелая экосистема GPT, коннекторов и мобильных приложений",
+          "Быстрые итерации благодаря Canvas и живому голосу"
+        ],
+        "cons": [
+          "Режимы глубоких рассуждений медленнее и ограничены по лимитам",
+          "Терминология выбора моделей путает новичков",
+          "В долгих диалогах модель иногда теряет ранние ограничения"
+        ],
+        "benchmarks": {
+          "coding": 9,
+          "reasoning": 9,
+          "creativity": 8,
+          "multimodality": 10,
+          "speed": 8
+        }
+      }
+    }
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "provider": "Anthropic",
+    "category": [
+      "text",
+      "coding"
+    ],
+    "gridSpan": "large",
+    "logoUrl": "./assets/logos/claude.svg",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128",
+    "previewImage": "./assets/previews/claude.jpg",
+    "officialUrl": "https://claude.ai",
+    "pricingModel": "Freemium",
+    "localRun": false,
+    "tags": [
+      "Artifacts",
+      "200K context",
+      "Writing",
+      "Coding"
+    ],
+    "i18n": {
+      "en": {
+        "tagline": "A precise writing and coding partner with a huge context window and Artifacts.",
+        "description": "Claude is Anthropic's assistant built around careful reasoning, long documents and production-grade code. Artifacts turn answers into editable apps, diagrams and documents, while a 200K-token context lets you hand over entire codebases or research packs. Its measured tone makes it a favorite for editing, analysis and architecture reviews.",
+        "capabilities": [
+          "Artifacts that render apps, diagrams and documents beside the chat",
+          "200K-token context for full repositories, contracts and research",
+          "Strong refactoring and test-writing across large codebases",
+          "Nuanced long-form editing with a consistent voice",
+          "Projects and MCP connectors for reusable context"
+        ],
+        "useCases": [
+          "Review a 40-page contract and produce a clause-by-clause risk memo",
+          "Refactor a legacy module and generate the missing test suite",
+          "Turn a research folder into a cited, structured report"
+        ],
+        "pros": [
+          "Exceptional code quality and instruction-following",
+          "Long context handles entire repositories without chunking",
+          "Artifacts make prototypes immediately shareable"
+        ],
+        "cons": [
+          "Usage limits on the best models arrive quickly",
+          "Less generous multimodality than rivals",
+          "Can be conservative when you want a fast creative leap"
+        ],
+        "benchmarks": {
+          "coding": 10,
+          "reasoning": 9,
+          "creativity": 8,
+          "multimodality": 7,
+          "speed": 7
+        }
+      },
+      "ru": {
+        "tagline": "Точный партнёр для текста и кода: огромный контекст и Artifacts.",
+        "description": "Claude — ассистент Anthropic, построенный вокруг аккуратных рассуждений, длинных документов и продакшен-кода. Artifacts превращают ответы в редактируемые приложения, схемы и документы, а контекст на 200K токенов позволяет передать целый репозиторий или исследовательский пакет. Спокойный тон делает его любимцем для редактуры, анализа и ревью архитектуры.",
+        "capabilities": [
+          "Artifacts: приложения, схемы и документы рядом с чатом",
+          "Контекст 200K токенов для репозиториев, договоров и исследований",
+          "Сильный рефакторинг и написание тестов в больших кодовых базах",
+          "Тонкая редактура длинных текстов с сохранением голоса",
+          "Проекты и MCP-коннекторы для переиспользуемого контекста"
+        ],
+        "useCases": [
+          "Проверить 40-страничный договор и собрать мемо по рискам пункт за пунктом",
+          "Отрефакторить legacy-модуль и сгенерировать недостающие тесты",
+          "Превратить папку исследований в структурированный отчёт со ссылками"
+        ],
+        "pros": [
+          "Исключительное качество кода и следование инструкциям",
+          "Длинный контекст охватывает целые репозитории без нарезки",
+          "Artifacts делают прототипы сразу доступными"
+        ],
+        "cons": [
+          "Лимиты на лучшие модели заканчиваются быстро",
+          "Мультимодальность скромнее, чем у конкурентов",
+          "Иногда слишком осторожен там, где нужен творческий скачок"
+        ],
+        "benchmarks": {
+          "coding": 10,
+          "reasoning": 9,
+          "creativity": 8,
+          "multimodality": 7,
+          "speed": 7
+        }
+      }
+    }
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "provider": "DeepSeek",
+    "category": [
+      "text",
+      "coding",
+      "local"
+    ],
+    "gridSpan": "large",
+    "logoUrl": "./assets/logos/deepseek.svg",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=deepseek.com&sz=128",
+    "previewImage": "./assets/previews/deepseek.jpg",
+    "officialUrl": "https://chat.deepseek.com",
+    "pricingModel": "Free / Open-Source",
+    "localRun": true,
+    "tags": [
+      "R1",
+      "Open weights",
+      "Reasoning",
+      "Coding"
+    ],
+    "i18n": {
+      "en": {
+        "tagline": "Open-weights reasoning and coding power at a fraction of the cost.",
+        "description": "DeepSeek's R1 and V-series models proved that frontier reasoning does not require a frontier budget. Open weights, transparent chains of thought and aggressive efficiency make it a favorite for coding agents, mathematics and self-hosted deployments. The chat app is minimal, fast and surprisingly capable for everyday work.",
+        "capabilities": [
+          "Open-weight R1 reasoning models you can self-host",
+          "Strong competitive-programming and debugging performance",
+          "Transparent step-by-step reasoning traces",
+          "Low-cost API compatible with OpenAI-style tooling",
+          "Efficient inference on modest GPU hardware"
+        ],
+        "useCases": [
+          "Run a private coding agent on your own GPU server",
+          "Solve a hard algorithm problem with a visible reasoning trace",
+          "Cut inference costs by routing batch jobs to the DeepSeek API"
+        ],
+        "pros": [
+          "Near-frontier reasoning at a fraction of closed-model cost",
+          "Open weights enable privacy, fine-tuning and offline use",
+          "Excellent code generation and debugging"
+        ],
+        "cons": [
+          "Weaker multimodality and creative polish",
+          "Occasional overthinking on simple prompts",
+          "Hosted capacity can fluctuate during peak demand"
+        ],
+        "benchmarks": {
+          "coding": 9,
+          "reasoning": 10,
+          "creativity": 6,
+          "multimodality": 4,
+          "speed": 9
+        }
+      },
+      "ru": {
+        "tagline": "Открытые веса, сильные рассуждения и код за малую долю цены.",
+        "description": "Модели DeepSeek R1 и V-серии доказали: фронтирные рассуждения не требуют фронтирного бюджета. Открытые веса, прозрачная цепочка размышлений и агрессивная эффективность делают DeepSeek любимцем для кодинг-агентов, математики и self-hosted развёртываний. Чат минималистичен, быстр и на удивление силён в повседневных задачах.",
+        "capabilities": [
+          "Open-weight модели R1 для собственного хостинга",
+          "Сильные результаты в спортивном программировании и отладке",
+          "Прозрачные пошаговые цепочки рассуждений",
+          "Недорогой API, совместимый с OpenAI-инструментами",
+          "Эффективный инференс на скромных GPU"
+        ],
+        "useCases": [
+          "Запустить приватного кодинг-агента на своём GPU-сервере",
+          "Решить сложную алгоритмическую задачу с видимой цепочкой рассуждений",
+          "Сократить расходы, отправив пакетные задачи в API DeepSeek"
+        ],
+        "pros": [
+          "Почти фронтирные рассуждения за долю стоимости закрытых моделей",
+          "Открытые веса дают приватность, файнтюнинг и офлайн-работу",
+          "Отличная генерация и отладка кода"
+        ],
+        "cons": [
+          "Слабее в мультимодальности и креативной подаче",
+          "Иногда чрезмерно «думает» над простыми запросами",
+          "Мощности облака могут колебаться в пиковые часы"
+        ],
+        "benchmarks": {
+          "coding": 9,
+          "reasoning": 10,
+          "creativity": 6,
+          "multimodality": 4,
+          "speed": 9
+        }
+      }
+    }
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "provider": "Google DeepMind",
+    "category": [
+      "text",
+      "coding",
+      "video"
+    ],
+    "gridSpan": "large",
+    "logoUrl": "./assets/logos/gemini.svg",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128",
+    "previewImage": "./assets/previews/gemini.jpg",
+    "officialUrl": "https://gemini.google.com",
+    "pricingModel": "Freemium",
+    "localRun": false,
+    "tags": [
+      "1M context",
+      "Video",
+      "Workspace",
+      "Veo"
+    ],
+    "i18n": {
+      "en": {
+        "tagline": "A 1M–2M token multimodal mind wired into Google's ecosystem.",
+        "description": "Gemini is Google's native multimodal family, built to reason across text, images, audio, video and code in a single context. The Pro and Flash tiers trade depth for speed, while deep Workspace, Search and Android integration puts it where your data already lives. It is the strongest choice for video understanding and enormous documents.",
+        "capabilities": [
+          "Native video, audio and image understanding",
+          "1M–2M token context for books, footage and codebases",
+          "Deep integration with Workspace, Search and Android",
+          "Fast Flash models for high-volume workflows",
+          "Veo video generation and Imagen image tools in one app"
+        ],
+        "useCases": [
+          "Summarize a two-hour product demo into timestamped decisions",
+          "Analyze a 500-page report alongside its spreadsheets",
+          "Build a multimodal support bot on the Gemini API"
+        ],
+        "pros": [
+          "Unmatched context size for documents and long video",
+          "Native multimodality without separate vision models",
+          "Tight Google ecosystem and a generous free tier"
+        ],
+        "cons": [
+          "Quality varies noticeably between Pro and Flash",
+          "Privacy-sensitive users may hesitate at ecosystem lock-in",
+          "Creative writing can feel more corporate than Claude"
+        ],
+        "benchmarks": {
+          "coding": 8,
+          "reasoning": 10,
+          "creativity": 7,
+          "multimodality": 10,
+          "speed": 8
+        }
+      },
+      "ru": {
+        "tagline": "Мультимодальный разум с контекстом 1–2M токенов внутри экосистемы Google.",
+        "description": "Gemini — нативное мультимодальное семейство Google, созданное рассуждать о тексте, изображениях, аудио, видео и коде в одном контексте. Уровни Pro и Flash меняют глубину на скорость, а глубокая интеграция с Workspace, Поиском и Android помещает модель туда, где уже живут ваши данные. Лучший выбор для понимания видео и гигантских документов.",
+        "capabilities": [
+          "Нативное понимание видео, аудио и изображений",
+          "Контекст 1–2M токенов для книг, записей и кодовых баз",
+          "Глубокая интеграция с Workspace, Поиском и Android",
+          "Быстрые Flash-модели для массовых задач",
+          "Генерация видео Veo и изображений Imagen в одном приложении"
+        ],
+        "useCases": [
+          "Сжать двухчасовую демонстрацию продукта в решения с таймкодами",
+          "Проанализировать отчёт на 500 страниц вместе с таблицами",
+          "Собрать мультимодального бота поддержки на Gemini API"
+        ],
+        "pros": [
+          "Рекордный контекст для документов и длинного видео",
+          "Нативная мультимодальность без отдельных vision-моделей",
+          "Тесная экосистема Google и щедрый бесплатный тариф"
+        ],
+        "cons": [
+          "Качество заметно различается между Pro и Flash",
+          "Чувствительные к приватности пользователи опасаются lock-in",
+          "Креативное письмо иногда звучит более корпоративно, чем у Claude"
+        ],
+        "benchmarks": {
+          "coding": 8,
+          "reasoning": 10,
+          "creativity": 7,
+          "multimodality": 10,
+          "speed": 8
+        }
+      }
+    }
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "provider": "Midjourney",
+    "category": [
+      "image"
+    ],
+    "gridSpan": "large",
+    "logoUrl": "./assets/logos/midjourney.svg",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=midjourney.com&sz=128",
+    "previewImage": "./assets/previews/midjourney.jpg",
+    "officialUrl": "https://www.midjourney.com",
+    "pricingModel": "Paid",
+    "localRun": false,
+    "tags": [
+      "Photoreal",
+      "Style refs",
+      "Web editor",
+      "Art direction"
+    ],
+    "i18n": {
+      "en": {
+        "tagline": "Painterly, photoreal, unmistakably Midjourney — now with a web editor.",
+        "description": "Midjourney remains the gold standard for aesthetic image generation. Its models excel at lighting, texture and cinematic composition, while style references and character consistency keep a visual language coherent across a campaign. The web app adds a real editor, folders and moodboards without losing the prompt-first magic.",
+        "capabilities": [
+          "Photoreal and painterly image synthesis with signature lighting",
+          "Style and character references for consistent series",
+          "Web editor with inpainting, pan and zoom",
+          "Moodboards and folders for art direction",
+          "Fast, relaxed and stealth generation modes"
+        ],
+        "useCases": [
+          "Build a consistent visual identity for a product launch",
+          "Iterate concept art from thumbnail to hero image",
+          "Create editorial illustrations with a reusable style reference"
+        ],
+        "pros": [
+          "Best-in-class aesthetics with minimal prompting",
+          "Consistent characters and styles across images",
+          "Mature web editor and community showcase"
+        ],
+        "cons": [
+          "No free tier and limited control over fine details",
+          "Text rendering and precise layouts remain unreliable",
+          "Prompting has a learning curve for reproducibility"
+        ],
+        "benchmarks": {
+          "coding": 1,
+          "reasoning": 3,
+          "creativity": 10,
+          "multimodality": 5,
+          "speed": 6
+        }
+      },
+      "ru": {
+        "tagline": "Живописно, фотореалистично и безошибочно по-миджорни — теперь в веб-редакторе.",
+        "description": "Midjourney остаётся эталоном эстетичной генерации изображений. Модели сильны в свете, текстурах и кинематографичной композиции, а стилевые и character-референсы сохраняют визуальный язык кампании. Веб-приложение добавляет полноценный редактор, папки и мудборды, не теряя магии промптов.",
+        "capabilities": [
+          "Фотореалистичная и живописная генерация с фирменным светом",
+          "Стилевые и character-референсы для серий изображений",
+          "Веб-редактор с инпейнтингом, pan и zoom",
+          "Мудборды и папки для арт-дирекшена",
+          "Быстрый, расслабленный и скрытый режимы генерации"
+        ],
+        "useCases": [
+          "Собрать целостную визуальную айдентику для запуска продукта",
+          "Провести концепт-арт от миниатюры до hero-изображения",
+          "Создать редакционные иллюстрации с переиспользуемым стилем"
+        ],
+        "pros": [
+          "Лучшая эстетика при минимальном промпте",
+          "Стабильные персонажи и стили в серии изображений",
+          "Зрелый веб-редактор и сообщество"
+        ],
+        "cons": [
+          "Нет бесплатного тарифа, а тонкий контроль ограничен",
+          "Текст и точная вёрстка по-прежнему ненадёжны",
+          "Промптинг требует опыта для воспроизводимости"
+        ],
+        "benchmarks": {
+          "coding": 1,
+          "reasoning": 3,
+          "creativity": 10,
+          "multimodality": 5,
+          "speed": 6
+        }
+      }
+    }
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "provider": "Suno",
+    "category": [
+      "audio"
+    ],
+    "gridSpan": "large",
+    "logoUrl": "./assets/logos/suno.svg",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=suno.com&sz=128",
+    "previewImage": "./assets/previews/suno.jpg",
+    "officialUrl": "https://suno.com",
+    "pricingModel": "Freemium",
+    "localRun": false,
+    "tags": [
+      "Songs",
+      "Vocals",
+      "Lyrics",
+      "Production"
+    ],
+    "i18n": {
+      "en": {
+        "tagline": "Full songs — vocals, instruments and lyrics — in under a minute.",
+        "description": "Suno turns a text prompt into a complete, radio-shaped song: vocals, instrumentation, mixing and lyrics included. Style tags cover everything from hyperpop to orchestral scores, and the editor lets you extend, remix and swap sections. It is the fastest way to move from a musical idea to a listenable demo.",
+        "capabilities": [
+          "Text-to-song with vocals, lyrics and full arrangement",
+          "Style prompts spanning dozens of genres",
+          "Extend, remix and replace song sections",
+          "Custom lyrics and instrumental-only mode",
+          "Stem exports for further production"
+        ],
+        "useCases": [
+          "Generate a 30-second sonic logo for a product teaser",
+          "Turn a poem into a demo track in a specific genre",
+          "Score a short film with instrumental cues"
+        ],
+        "pros": [
+          "Complete songs, not just loops or stems",
+          "Fast iteration across genres and moods",
+          "Vocals sound convincing with minimal effort"
+        ],
+        "cons": [
+          "Fine production control is limited",
+          "Lyrics can repeat or drift in longer tracks",
+          "Rights and commercial use depend on the plan"
+        ],
+        "benchmarks": {
+          "coding": 1,
+          "reasoning": 2,
+          "creativity": 10,
+          "multimodality": 4,
+          "speed": 8
+        }
+      },
+      "ru": {
+        "tagline": "Целые песни — вокал, инструменты и текст — меньше чем за минуту.",
+        "description": "Suno превращает текстовый промпт в полноценную песню: вокал, инструменты, микс и текст. Стилевые теги охватывают всё от гиперпопа до оркестровых партитур, а редактор позволяет продлевать, ремиксовать и менять секции. Это самый быстрый путь от музыкальной идеи до демо, которое можно слушать.",
+        "capabilities": [
+          "Генерация песни из текста: вокал, текст и аранжировка",
+          "Стилевые промпты в десятках жанров",
+          "Продление, ремиксы и замена секций",
+          "Свои тексты и инструментальный режим",
+          "Экспорт стемов для дальнейшей продакшн-работы"
+        ],
+        "useCases": [
+          "Сгенерировать 30-секундный звуковой логотип для тизера",
+          "Превратить стихотворение в демо-трек в нужном жанре",
+          "Написать инструментальную музыку для короткометражки"
+        ],
+        "pros": [
+          "Полные песни, а не просто лупы или стемы",
+          "Быстрые итерации в разных жанрах и настроениях",
+          "Убедительный вокал без лишних усилий"
+        ],
+        "cons": [
+          "Тонкий контроль продакшена ограничен",
+          "В длинных треках текст повторяется или сбивается",
+          "Права и коммерческое использование зависят от тарифа"
+        ],
+        "benchmarks": {
+          "coding": 1,
+          "reasoning": 2,
+          "creativity": 10,
+          "multimodality": 4,
+          "speed": 8
+        }
+      }
+    }
+  },
+  {
+    "id": "cursor-opencode",
+    "name": "Cursor + OpenCode",
+    "provider": "Anysphere · OpenCode",
+    "category": [
+      "coding"
+    ],
+    "gridSpan": "medium",
+    "logoUrl": "./assets/logos/cursor.svg",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=cursor.com&sz=128",
+    "secondaryLogoUrl": "./assets/logos/opencode.svg",
+    "secondaryLabel": "OpenCode",
+    "secondaryFaviconUrl": "https://www.google.com/s2/favicons?domain=opencode.ai&sz=128",
+    "previewImage": "./assets/previews/cursor-opencode.jpg",
+    "officialUrl": "https://cursor.com",
+    "pricingModel": "Freemium",
+    "localRun": false,
+    "tags": [
+      "IDE",
+      "Terminal",
+      "Agents",
+      "Refactor"
+    ],
+    "i18n": {
+      "en": {
+        "tagline": "AI-native IDE and terminal agents that read your repo and ship the diff.",
+        "description": "Cursor reimagines the editor as an AI workspace: multi-file edits, repo-wide chat, inline completions and autonomous agents. OpenCode brings a similar agent loop to the terminal, open-source and model-agnostic. Together they cover the two places engineers live — the editor and the shell.",
+        "capabilities": [
+          "Repo-wide chat with multi-file edits and diffs",
+          "Autonomous agents for refactors and feature work",
+          "Inline completions that learn your conventions",
+          "Terminal-native open-source agent with OpenCode",
+          "Model-agnostic routing across frontier providers"
+        ],
+        "useCases": [
+          "Describe a feature and review the generated multi-file diff",
+          "Refactor a module with an agent, then run the test suite",
+          "Debug a failing build from the terminal with OpenCode"
+        ],
+        "pros": [
+          "Deep repo awareness beyond single-file autocomplete",
+          "Fast agent loops for real engineering tasks",
+          "OpenCode keeps the terminal workflow open and hackable"
+        ],
+        "cons": [
+          "Agent-generated diffs still need careful review",
+          "Best experience depends on paid frontier models",
+          "Large monorepos can challenge context limits"
+        ],
+        "benchmarks": {
+          "coding": 10,
+          "reasoning": 8,
+          "creativity": 5,
+          "multimodality": 3,
+          "speed": 9
+        }
+      },
+      "ru": {
+        "tagline": "AI-редактор и терминальные агенты, которые читают репозиторий и выдают дифф.",
+        "description": "Cursor переосмысляет редактор как AI-рабочее пространство: правки в нескольких файлах, чат по репозиторию, инлайн-автодополнение и автономные агенты. OpenCode приносит похожий цикл агента в терминал — open-source и независимо от модели. Вместе они закрывают два места, где живёт инженер: редактор и shell.",
+        "capabilities": [
+          "Чат по репозиторию с правками и диффами в нескольких файлах",
+          "Автономные агенты для рефакторинга и фич",
+          "Инлайн-автодополнение, подстраивающееся под ваши конвенции",
+          "Терминальный open-source агент OpenCode",
+          "Маршрутизация запросов между разными провайдерами"
+        ],
+        "useCases": [
+          "Описать фичу и проверить сгенерированный дифф по нескольким файлам",
+          "Отрефакторить модуль агентом и прогнать тесты",
+          "Отладить упавшую сборку из терминала через OpenCode"
+        ],
+        "pros": [
+          "Глубокое понимание репозитория, а не только автокомплит",
+          "Быстрые агентные циклы для реальной инженерии",
+          "OpenCode сохраняет терминальный workflow открытым и гибким"
+        ],
+        "cons": [
+          "Диффы агента всё равно требуют внимательного ревью",
+          "Лучший опыт зависит от платных фронтирных моделей",
+          "Большие монорепозитории упираются в лимиты контекста"
+        ],
+        "benchmarks": {
+          "coding": 10,
+          "reasoning": 8,
+          "creativity": 5,
+          "multimodality": 3,
+          "speed": 9
+        }
+      }
+    }
+  },
+  {
+    "id": "runway-sora",
+    "name": "Runway + Sora",
+    "provider": "Runway · OpenAI",
+    "category": [
+      "video"
+    ],
+    "gridSpan": "medium",
+    "logoUrl": "./assets/logos/runway.svg",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=runwayml.com&sz=128",
+    "secondaryLogoUrl": "./assets/logos/sora.svg",
+    "secondaryLabel": "Sora",
+    "secondaryFaviconUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "previewImage": "./assets/previews/runway-sora.jpg",
+    "officialUrl": "https://runwayml.com",
+    "pricingModel": "Paid",
+    "localRun": false,
+    "tags": [
+      "Text-to-video",
+      "Motion brush",
+      "Cinema",
+      "VFX"
+    ],
+    "i18n": {
+      "en": {
+        "tagline": "Cinematic text-to-video with motion control and physics-aware scenes.",
+        "description": "Runway and Sora push generative video from novelty to production tool. Runway offers granular control — motion brush, camera moves, keyframes and video-to-video restyling — while Sora leans into coherent long shots and surprising physical realism. Both are now used for previs, ads and short films.",
+        "capabilities": [
+          "Text-to-video and image-to-video generation",
+          "Motion brush, camera paths and keyframe control",
+          "Video-to-video restyling and inpainting",
+          "Long, coherent shots with consistent characters",
+          "Upscaling and frame interpolation for delivery"
+        ],
+        "useCases": [
+          "Previsualize a commercial before the shoot",
+          "Turn a product photo into a looping hero video",
+          "Restyle archival footage into a new visual language"
+        ],
+        "pros": [
+          "Cinematic motion quality and directorial control",
+          "Fast concept iteration for film and ads",
+          "Strong image-to-video consistency"
+        ],
+        "cons": [
+          "Expensive credits for serious production",
+          "Physics and hands still break under scrutiny",
+          "Short clip lengths demand creative editing"
+        ],
+        "benchmarks": {
+          "coding": 1,
+          "reasoning": 3,
+          "creativity": 9,
+          "multimodality": 6,
+          "speed": 7
+        }
+      },
+      "ru": {
+        "tagline": "Кинематографичное видео из текста: контроль движения и физика сцены.",
+        "description": "Runway и Sora превращают генеративное видео из новинки в продакшн-инструмент. Runway даёт точный контроль — motion brush, движение камеры, кейфреймы и video-to-video рестайлинг, — а Sora делает ставку на связные длинные кадры и неожиданный физический реализм. Оба уже используют для превизуализации, рекламы и короткого метра.",
+        "capabilities": [
+          "Генерация видео из текста и изображения",
+          "Motion brush, траектории камеры и кейфреймы",
+          "Рестайлинг и инпейнтинг видео",
+          "Длинные связные кадры с постоянными персонажами",
+          "Апскейл и интерполяция кадров для сдачи"
+        ],
+        "useCases": [
+          "Провести превизуализацию рекламного ролика до съёмок",
+          "Превратить фото продукта в зацикленное hero-видео",
+          "Переосмыслить архивную плёнку в новом визуальном стиле"
+        ],
+        "pros": [
+          "Кинематографичное движение и режиссёрский контроль",
+          "Быстрые концепт-итерации для кино и рекламы",
+          "Стабильность при генерации из изображения"
+        ],
+        "cons": [
+          "Дорогие кредиты для серьёзного продакшена",
+          "Физика и руки всё ещё ломаются при внимательном взгляде",
+          "Короткие клипы требуют монтажной смекалки"
+        ],
+        "benchmarks": {
+          "coding": 1,
+          "reasoning": 3,
+          "creativity": 9,
+          "multimodality": 6,
+          "speed": 7
+        }
+      }
+    }
+  },
+  {
+    "id": "ollama-llama",
+    "name": "Ollama + Llama",
+    "provider": "Ollama · Meta",
+    "category": [
+      "text",
+      "local"
+    ],
+    "gridSpan": "medium",
+    "logoUrl": "./assets/logos/ollama.svg",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=ollama.com&sz=128",
+    "secondaryLogoUrl": "./assets/logos/meta.svg",
+    "secondaryLabel": "Meta",
+    "secondaryFaviconUrl": "https://www.google.com/s2/favicons?domain=meta.com&sz=128",
+    "previewImage": "./assets/previews/ollama-llama.jpg",
+    "officialUrl": "https://ollama.com",
+    "pricingModel": "Free / Open-Source",
+    "localRun": true,
+    "tags": [
+      "Local",
+      "Open weights",
+      "Ollama",
+      "Privacy"
+    ],
+    "i18n": {
+      "en": {
+        "tagline": "Private, local LLMs on your own hardware — no cloud required.",
+        "description": "Ollama is the simplest way to run open-weight models locally, with one-command installs, an OpenAI-compatible API and a growing model library. Llama and its open-weight peers deliver capable reasoning and coding on consumer hardware, keeping prompts, files and fine-tunes entirely under your control.",
+        "capabilities": [
+          "One-command local model installs and updates",
+          "OpenAI-compatible local API server",
+          "Runs Llama, Mistral, Qwen, Gemma and more",
+          "Offline inference with full data privacy",
+          "Custom Modelfiles for system prompts and fine-tunes"
+        ],
+        "useCases": [
+          "Run a private coding assistant on a laptop with no internet",
+          "Prototype an on-prem RAG pipeline with an OpenAI-compatible API",
+          "Fine-tune a small model for a domain-specific workflow"
+        ],
+        "pros": [
+          "Complete privacy: prompts never leave your machine",
+          "Zero token costs after hardware",
+          "Simple CLI and broad model support"
+        ],
+        "cons": [
+          "Quality trails frontier cloud models",
+          "Requires meaningful RAM or VRAM",
+          "Setup and tuning can be technical"
+        ],
+        "benchmarks": {
+          "coding": 7,
+          "reasoning": 7,
+          "creativity": 6,
+          "multimodality": 3,
+          "speed": 10
+        }
+      },
+      "ru": {
+        "tagline": "Приватные локальные LLM на вашем железе — без облака.",
+        "description": "Ollama — простейший способ запускать open-weight модели локально: установка одной командой, OpenAI-совместимый API и растущая библиотека моделей. Llama и её открытые соседи дают достойные рассуждения и код на потребительском железе, оставляя промпты, файлы и файнтюны полностью под вашим контролем.",
+        "capabilities": [
+          "Установка и обновление локальных моделей одной командой",
+          "Локальный API-сервер, совместимый с OpenAI",
+          "Запуск Llama, Mistral, Qwen, Gemma и других",
+          "Офлайн-инференс с полной приватностью данных",
+          "Кастомные Modelfile для системных промптов и файнтюнов"
+        ],
+        "useCases": [
+          "Запустить приватного кодинг-ассистента на ноутбуке без интернета",
+          "Собрать прототип on-prem RAG на OpenAI-совместимом API",
+          "Дообучить небольшую модель под узкий доменный процесс"
+        ],
+        "pros": [
+          "Полная приватность: промпты не покидают устройство",
+          "Нулевая стоимость токенов после покупки железа",
+          "Простой CLI и широкая поддержка моделей"
+        ],
+        "cons": [
+          "Качество уступает фронтирным облачным моделям",
+          "Нужен серьёзный объём RAM или VRAM",
+          "Настройка и тюнинг требуют технических навыков"
+        ],
+        "benchmarks": {
+          "coding": 7,
+          "reasoning": 7,
+          "creativity": 6,
+          "multimodality": 3,
+          "speed": 10
+        }
+      }
+    }
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "provider": "ElevenLabs",
+    "category": [
+      "audio"
+    ],
+    "gridSpan": "small",
+    "logoUrl": "./assets/logos/elevenlabs.svg",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=elevenlabs.io&sz=128",
+    "previewImage": "./assets/previews/elevenlabs.jpg",
+    "officialUrl": "https://elevenlabs.io",
+    "pricingModel": "Freemium",
+    "localRun": false,
+    "tags": [
+      "Voice clone",
+      "TTS",
+      "Dubbing"
+    ],
+    "i18n": {
+      "en": {
+        "tagline": "Studio-grade voice cloning, TTS and dubbing in 30+ languages.",
+        "description": "ElevenLabs sets the bar for expressive synthetic speech. Instant and professional voice cloning capture tone and cadence from short samples, while text-to-speech, dubbing and sound effects cover the full audio pipeline. Creators use it for audiobooks, games, ads and localized video.",
+        "capabilities": [
+          "Ultra-realistic text-to-speech in 30+ languages",
+          "Instant and professional voice cloning",
+          "Video dubbing with voice preservation",
+          "Sound effects and music generation tools",
+          "Low-latency streaming API for real-time apps"
+        ],
+        "useCases": [
+          "Narrate an audiobook with a consistent cloned voice",
+          "Dub a product video into five languages",
+          "Give a game character dynamic, expressive dialogue"
+        ],
+        "pros": [
+          "Best-in-class naturalness and emotional range",
+          "Fast cloning from short audio samples",
+          "Robust API for production apps"
+        ],
+        "cons": [
+          "Character limits make long projects expensive",
+          "Cloning requires consent and careful ethics",
+          "Some languages lag behind English quality"
+        ],
+        "benchmarks": {
+          "coding": 1,
+          "reasoning": 2,
+          "creativity": 8,
+          "multimodality": 5,
+          "speed": 9
+        }
+      },
+      "ru": {
+        "tagline": "Студийное клонирование голоса, TTS и дубляж на 30+ языках.",
+        "description": "ElevenLabs задаёт планку выразительной синтетической речи. Мгновенное и профессиональное клонирование передаёт тон и интонации по коротким сэмплам, а TTS, дубляж и звуковые эффекты закрывают весь аудиоконвейер. Создатели используют его для аудиокниг, игр, рекламы и локализации видео.",
+        "capabilities": [
+          "Реалистичный синтез речи на 30+ языках",
+          "Мгновенное и профессиональное клонирование голоса",
+          "Дубляж видео с сохранением голоса",
+          "Звуковые эффекты и генерация музыки",
+          "Низколатентный стриминговый API для приложений"
+        ],
+        "useCases": [
+          "Озвучить аудиокнигу постоянным клонированным голосом",
+          "Дублировать продуктовое видео на пять языков",
+          "Дать персонажу игры динамичные выразительные реплики"
+        ],
+        "pros": [
+          "Лучшая естественность и эмоциональный диапазон",
+          "Быстрое клонирование по коротким сэмплам",
+          "Надёжный API для продакшн-приложений"
+        ],
+        "cons": [
+          "Лимиты символов делают длинные проекты дорогими",
+          "Клонирование требует согласия и этической осторожности",
+          "Качество некоторых языков ниже английского"
+        ],
+        "benchmarks": {
+          "coding": 1,
+          "reasoning": 2,
+          "creativity": 8,
+          "multimodality": 5,
+          "speed": 9
+        }
+      }
+    }
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "provider": "Perplexity",
+    "category": [
+      "text"
+    ],
+    "gridSpan": "small",
+    "logoUrl": "./assets/logos/perplexity.svg",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=perplexity.ai&sz=128",
+    "previewImage": "./assets/previews/perplexity.jpg",
+    "officialUrl": "https://www.perplexity.ai",
+    "pricingModel": "Freemium",
+    "localRun": false,
+    "tags": [
+      "Search",
+      "Citations",
+      "Deep research"
+    ],
+    "i18n": {
+      "en": {
+        "tagline": "Real-time answers with citations, deep research and source control.",
+        "description": "Perplexity is an answer engine, not a chat toy. Every response is grounded in live web sources with inline citations, and Deep Research turns a question into a structured, sourced report. Spaces and file uploads keep projects organized, making it a strong first stop for market and technical research.",
+        "capabilities": [
+          "Live web answers with inline citations",
+          "Deep Research reports with source lists",
+          "Spaces for persistent projects and files",
+          "Model switching across frontier providers",
+          "Shopping, academic and finance-focused modes"
+        ],
+        "useCases": [
+          "Map a competitor landscape with cited sources in minutes",
+          "Turn a vague market question into a sourced research brief",
+          "Verify a technical claim against primary documentation"
+        ],
+        "pros": [
+          "Citations make verification fast and honest",
+          "Live sources beat stale model memory",
+          "Deep Research saves hours of desk work"
+        ],
+        "cons": [
+          "Summaries can miss nuance in complex sources",
+          "Occasional citation drift or weak sources",
+          "Less useful for creative or long-form generation"
+        ],
+        "benchmarks": {
+          "coding": 5,
+          "reasoning": 9,
+          "creativity": 5,
+          "multimodality": 4,
+          "speed": 10
+        }
+      },
+      "ru": {
+        "tagline": "Ответы в реальном времени со ссылками, глубокие исследования и контроль источников.",
+        "description": "Perplexity — поисковик ответов, а не игрушечный чат. Каждый ответ опирается на живые веб-источники с инлайн-ссылками, а Deep Research превращает вопрос в структурированный отчёт с источниками. Spaces и загрузка файлов держат проекты в порядке, делая его сильной отправной точкой для рыночных и технических исследований.",
+        "capabilities": [
+          "Ответы из живого веба с инлайн-ссылками",
+          "Отчёты Deep Research со списком источников",
+          "Spaces для постоянных проектов и файлов",
+          "Переключение между фронтирными моделями",
+          "Режимы для покупок, науки и финансов"
+        ],
+        "useCases": [
+          "Составить карту конкурентов со ссылками за минуты",
+          "Превратить расплывчатый рыночный вопрос в исследовательский бриф",
+          "Проверить техническое утверждение по первоисточникам"
+        ],
+        "pros": [
+          "Ссылки делают проверку быстрой и честной",
+          "Живые источники лучше устаревшей памяти модели",
+          "Deep Research экономит часы рутинной работы"
+        ],
+        "cons": [
+          "Суммаризация может терять нюансы сложных источников",
+          "Иногда встречаются слабые источники и расхождения в ссылках",
+          "Менее полезен для креатива и длинных текстов"
+        ],
+        "benchmarks": {
+          "coding": 5,
+          "reasoning": 9,
+          "creativity": 5,
+          "multimodality": 4,
+          "speed": 10
+        }
+      }
+    }
+  },
+  {
+    "id": "comfyui-flux",
+    "name": "ComfyUI + Flux",
+    "provider": "Comfy Org · Black Forest Labs",
+    "category": [
+      "image",
+      "local"
+    ],
+    "gridSpan": "small",
+    "logoUrl": "./assets/logos/comfyui.svg",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=comfy.org&sz=128",
+    "secondaryLogoUrl": "./assets/logos/flux.svg",
+    "secondaryLabel": "Flux",
+    "secondaryFaviconUrl": "https://www.google.com/s2/favicons?domain=blackforestlabs.ai&sz=128",
+    "previewImage": "./assets/previews/comfyui-flux.jpg",
+    "officialUrl": "https://www.comfy.org",
+    "pricingModel": "Free / Open-Source",
+    "localRun": true,
+    "tags": [
+      "Nodes",
+      "Flux",
+      "ControlNet",
+      "Local"
+    ],
+    "i18n": {
+      "en": {
+        "tagline": "Node-based image pipelines and state-of-the-art open-weights generation.",
+        "description": "ComfyUI is the modular engine behind serious open-source image workflows: a node graph for models, ControlNets, upscalers and post-processing. Flux adds open-weight generation with strong prompt adherence and detail. Together they offer reproducible, automatable pipelines that run entirely on your own GPU.",
+        "capabilities": [
+          "Node-based workflows for repeatable image pipelines",
+          "Open-weight Flux models with strong prompt adherence",
+          "ControlNet, inpainting and IP-Adapter support",
+          "Batch generation and API automation",
+          "Local inference on consumer GPUs"
+        ],
+        "useCases": [
+          "Build a reproducible character-consistency pipeline",
+          "Batch-generate product shots from a spreadsheet",
+          "Prototype a custom image API without vendor lock-in"
+        ],
+        "pros": [
+          "Unmatched control and reproducibility",
+          "Open weights and an active node ecosystem",
+          "Runs locally with no per-image cost"
+        ],
+        "cons": [
+          "Steep learning curve for non-technical users",
+          "Complex graphs are hard to maintain",
+          "GPU memory can be a bottleneck"
+        ],
+        "benchmarks": {
+          "coding": 3,
+          "reasoning": 3,
+          "creativity": 9,
+          "multimodality": 5,
+          "speed": 5
+        }
+      },
+      "ru": {
+        "tagline": "Нодовые пайплайны изображений и генерация на открытых весах.",
+        "description": "ComfyUI — модульный движок для серьёзных open-source workflow с изображениями: граф из нод для моделей, ControlNet, апскейлеров и постобработки. Flux добавляет генерацию на открытых весах с сильным следованием промпту и детализацией. Вместе они дают воспроизводимые и автоматизируемые пайплайны, работающие целиком на вашей GPU.",
+        "capabilities": [
+          "Нодовые workflow для повторяемых пайплайнов",
+          "Открытые модели Flux с точным следованием промпту",
+          "Поддержка ControlNet, инпейнтинга и IP-Adapter",
+          "Пакетная генерация и автоматизация через API",
+          "Локальный инференс на потребительских GPU"
+        ],
+        "useCases": [
+          "Собрать воспроизводимый пайплайн постоянства персонажа",
+          "Пакетно генерировать фото товаров из таблицы",
+          "Сделать прототип собственного image API без вендор-лока"
+        ],
+        "pros": [
+          "Непревзойдённый контроль и воспроизводимость",
+          "Открытые веса и активная экосистема нод",
+          "Работает локально без платы за изображение"
+        ],
+        "cons": [
+          "Крутая кривая обучения для нетехнических пользователей",
+          "Сложные графы трудно поддерживать",
+          "Память GPU может стать узким местом"
+        ],
+        "benchmarks": {
+          "coding": 3,
+          "reasoning": 3,
+          "creativity": 9,
+          "multimodality": 5,
+          "speed": 5
+        }
+      }
+    }
+  }
+]

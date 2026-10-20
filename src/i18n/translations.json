@@ -1,0 +1,334 @@
+{
+  "en": {
+    "meta": {
+      "title": "Neural Bento — AI & Neural Networks Directory",
+      "description": "A hand-curated bento directory of modern AI models: reasoning, coding, image, video, audio and local open-source tools."
+    },
+    "nav": {
+      "directory": "Directory",
+      "matrix": "Matrix",
+      "about": "About",
+      "github": "GitHub",
+      "subtitle": "AI Directory · 2026",
+      "skip": "Skip to directory"
+    },
+    "hero": {
+      "badge": "AI & neural networks · 2026 directory",
+      "titleLine1": "AI & neural networks,",
+      "titleLine2": "in one bento box.",
+      "description": "A hand-curated directory of modern AI models across text, code, image, video, audio and local inference. Search by model, capability or tag, then open a card for the full dossier.",
+      "meta": "{models} models · {categories} categories",
+      "searchLabel": "Search AI models",
+      "searchPlaceholder": "Claude, Suno, open weights…",
+      "searchHint": "Press / to search",
+      "clear": "Clear search"
+    },
+    "filters": {
+      "label": "Filter by category",
+      "all": "All",
+      "text": "Text & Reasoning",
+      "coding": "Coding",
+      "image": "Image Gen",
+      "video": "Video Gen",
+      "audio": "Audio & Voice",
+      "local": "Open-Source / Local"
+    },
+    "controls": {
+      "appearance": "Appearance",
+      "themeDark": "Dark mode",
+      "themeLight": "Light mode",
+      "switchToLight": "Switch to light mode",
+      "switchToDark": "Switch to dark mode",
+      "language": "Language",
+      "languageLabel": "Interface language"
+    },
+    "stats": {
+      "title": "Dataset pulse",
+      "live": "Live",
+      "models": "Models",
+      "categories": "Categories",
+      "open": "Open / local",
+      "openNote": "of {total} tools run locally or ship open weights",
+      "updated": "Updated Oct 2026"
+    },
+    "directory": {
+      "eyebrow": "The directory",
+      "title": "Every model, one bento.",
+      "description": "Twelve tools worth your attention — no filler, no sponsored slots.",
+      "showing": "Showing {shown} of {total} models",
+      "reset": "Reset filters",
+      "emptyTitle": "No models match “{query}”",
+      "emptyTitleFallback": "No AI models match your query",
+      "emptyText": "Try a broader keyword, switch the category, or reset everything to browse all {total} tools.",
+      "emptyReset": "Reset filters",
+      "suggestTitle": "Curated, not scraped.",
+      "suggestText": "Every entry is hand-checked and refreshed with each release cycle. Know a model that belongs here?",
+      "suggestCta": "Suggest a model",
+      "resultLabel": "Search results"
+    },
+    "card": {
+      "open": "Open details for {name}",
+      "previewAlt": "Preview of {name}",
+      "local": "Local",
+      "cloud": "Cloud",
+      "view": "View dossier",
+      "models": "models"
+    },
+    "pricing": {
+      "Freemium": "Freemium",
+      "Free / Open-Source": "Free / Open-Source",
+      "Paid": "Paid"
+    },
+    "modal": {
+      "eyebrow": "Model dossier",
+      "overview": "Overview",
+      "capabilities": "Capabilities",
+      "useCases": "Practical use cases",
+      "pros": "Strengths",
+      "cons": "Limitations",
+      "benchmarks": "Benchmarks",
+      "try": "Open official platform",
+      "close": "Close details",
+      "provider": "Provider",
+      "pricing": "Pricing",
+      "deployment": "Deployment",
+      "local": "Runs locally",
+      "cloud": "Cloud-first",
+      "bench": {
+        "coding": "Coding",
+        "reasoning": "Reasoning",
+        "creativity": "Creativity",
+        "multimodality": "Multimodality",
+        "speed": "Speed"
+      },
+      "score": "{value} / 10"
+    },
+    "matrix": {
+      "eyebrow": "Capability map",
+      "title": "Who leads where?",
+      "description": "Five jobs, three leaders each. Ranked by the benchmarks inside every dossier — click a name to open it.",
+      "rank": "Ranked 1–3",
+      "note": "Scores are editorial 1–10 ratings for relative positioning, not a universal benchmark.",
+      "explore": "Explore {name}",
+      "tasks": {
+        "coding": {
+          "title": "Architecture & coding",
+          "hint": "Ship production code"
+        },
+        "context": {
+          "title": "Long context & docs",
+          "hint": "Reason across 1M+ tokens"
+        },
+        "image": {
+          "title": "Photorealistic art",
+          "hint": "Stills, styles, worlds"
+        },
+        "local": {
+          "title": "Local & private",
+          "hint": "Run it on your hardware"
+        },
+        "audio": {
+          "title": "Audio & music",
+          "hint": "Voices, tracks, scores"
+        }
+      }
+    },
+    "creator": {
+      "eyebrow": "Behind the build",
+      "title": "Created & architected by Zana.",
+      "bio": "Frontend architect and AI product engineer. I build interfaces that make complex systems feel obvious — fast, accessible, and a little bit alive.",
+      "stack": "Built with",
+      "github": "GitHub",
+      "telegram": "Telegram"
+    },
+    "shortcuts": {
+      "eyebrow": "Field notes",
+      "title": "A directory that gets out of the way.",
+      "text": "No frameworks, no tracking, no server round-trips. Just semantic HTML, vanilla JavaScript and data kept in one place.",
+      "keysTitle": "Keyboard",
+      "search": "Focus search",
+      "close": "Close modal / clear search",
+      "open": "Open focused card",
+      "privacy": "Preferences stay in localStorage — theme, language, nothing else."
+    },
+    "footer": {
+      "note": "An independent, hand-built AI directory.",
+      "rights": "© {year} Neural Bento. Crafted with vanilla JS.",
+      "top": "Back to top"
+    },
+    "a11y": {
+      "theme": "Toggle color theme",
+      "modelList": "AI models",
+      "modal": "Model details",
+      "home": "Neural Bento — home",
+      "primaryNav": "Primary",
+      "openMeter": "Open-source and local models"
+    }
+  },
+  "ru": {
+    "meta": {
+      "title": "Neural Bento — каталог ИИ и нейросетей",
+      "description": "Аккуратный bento-каталог современных ИИ-моделей: рассуждения, код, изображения, видео, аудио и локальные open-source инструменты."
+    },
+    "nav": {
+      "directory": "Каталог",
+      "matrix": "Матрица",
+      "about": "О проекте",
+      "github": "GitHub",
+      "subtitle": "Каталог ИИ · 2026",
+      "skip": "Перейти к каталогу"
+    },
+    "hero": {
+      "badge": "ИИ и нейросети · каталог 2026",
+      "titleLine1": "ИИ и нейросети —",
+      "titleLine2": "в одной bento-сетке.",
+      "description": "Аккуратный каталог современных ИИ-моделей для текста, кода, изображений, видео, аудио и локального инференса. Ищите по модели, возможности или тегу и открывайте карточку для полного досье.",
+      "meta": "{models} моделей · {categories} категорий",
+      "searchLabel": "Поиск ИИ-моделей",
+      "searchPlaceholder": "Claude, Suno, открытые веса…",
+      "searchHint": "Нажмите / для поиска",
+      "clear": "Очистить поиск"
+    },
+    "filters": {
+      "label": "Фильтр по категории",
+      "all": "Все",
+      "text": "Текст и рассуждения",
+      "coding": "Код",
+      "image": "Генерация изображений",
+      "video": "Генерация видео",
+      "audio": "Аудио и голос",
+      "local": "Open-Source / локально"
+    },
+    "controls": {
+      "appearance": "Оформление",
+      "themeDark": "Тёмная тема",
+      "themeLight": "Светлая тема",
+      "switchToLight": "Включить светлую тему",
+      "switchToDark": "Включить тёмную тему",
+      "language": "Язык",
+      "languageLabel": "Язык интерфейса"
+    },
+    "stats": {
+      "title": "Пульс датасета",
+      "live": "Онлайн",
+      "models": "Модели",
+      "categories": "Категории",
+      "open": "Открытые / локальные",
+      "openNote": "из {total} инструментов работают локально или открывают веса",
+      "updated": "Обновлено в октябре 2026"
+    },
+    "directory": {
+      "eyebrow": "Каталог",
+      "title": "Все модели — в одной сетке.",
+      "description": "Двенадцать инструментов, достойных внимания: без наполнителя и платных мест.",
+      "showing": "Показано {shown} из {total} моделей",
+      "reset": "Сбросить фильтры",
+      "emptyTitle": "По запросу «{query}» ничего не найдено",
+      "emptyTitleFallback": "Ни одна ИИ-модель не подходит под запрос",
+      "emptyText": "Попробуйте более общий запрос, смените категорию или сбросьте фильтры, чтобы посмотреть все {total} инструментов.",
+      "emptyReset": "Сбросить фильтры",
+      "suggestTitle": "Кураторство, а не парсинг.",
+      "suggestText": "Каждая запись проверена вручную и обновляется с каждым релизом. Знаете модель, которой здесь не хватает?",
+      "suggestCta": "Предложить модель",
+      "resultLabel": "Результаты поиска"
+    },
+    "card": {
+      "open": "Открыть информацию о {name}",
+      "previewAlt": "Превью {name}",
+      "local": "Локально",
+      "cloud": "Облако",
+      "view": "Открыть досье",
+      "models": "моделей"
+    },
+    "pricing": {
+      "Freemium": "Freemium",
+      "Free / Open-Source": "Бесплатно / Open-Source",
+      "Paid": "Платно"
+    },
+    "modal": {
+      "eyebrow": "Досье модели",
+      "overview": "Обзор",
+      "capabilities": "Возможности",
+      "useCases": "Практические сценарии",
+      "pros": "Сильные стороны",
+      "cons": "Ограничения",
+      "benchmarks": "Бенчмарки",
+      "try": "Открыть официальную платформу",
+      "close": "Закрыть информацию",
+      "provider": "Провайдер",
+      "pricing": "Цена",
+      "deployment": "Развёртывание",
+      "local": "Работает локально",
+      "cloud": "Облачный сервис",
+      "bench": {
+        "coding": "Код",
+        "reasoning": "Рассуждения",
+        "creativity": "Креативность",
+        "multimodality": "Мультимодальность",
+        "speed": "Скорость"
+      },
+      "score": "{value} / 10"
+    },
+    "matrix": {
+      "eyebrow": "Карта возможностей",
+      "title": "Кто в чём лидирует?",
+      "description": "Пять задач — по три лидера. Рейтинг собран из бенчмарков в досье; нажмите на имя, чтобы открыть карточку.",
+      "rank": "Рейтинг 1–3",
+      "note": "Оценки 1–10 — редакционные, для сравнения моделей, а не универсальный бенчмарк.",
+      "explore": "Открыть {name}",
+      "tasks": {
+        "coding": {
+          "title": "Архитектура и код",
+          "hint": "Продакшен-код"
+        },
+        "context": {
+          "title": "Длинный контекст и документы",
+          "hint": "Анализ 1M+ токенов"
+        },
+        "image": {
+          "title": "Фотореалистичное искусство",
+          "hint": "Кадры, стили, миры"
+        },
+        "local": {
+          "title": "Локально и приватно",
+          "hint": "На вашем железе"
+        },
+        "audio": {
+          "title": "Аудио и музыка",
+          "hint": "Голоса, треки, саундтреки"
+        }
+      }
+    },
+    "creator": {
+      "eyebrow": "Кто создал",
+      "title": "Создано и спроектировано Zana.",
+      "bio": "Фронтенд-архитектор и инженер ИИ-продуктов. Собираю интерфейсы, в которых сложные системы кажутся простыми: быстрые, доступные и немного живые.",
+      "stack": "Технологии",
+      "github": "GitHub",
+      "telegram": "Telegram"
+    },
+    "shortcuts": {
+      "eyebrow": "Заметки",
+      "title": "Каталог, который не мешает.",
+      "text": "Без фреймворков, трекинга и запросов к серверу. Только семантический HTML, чистый JavaScript и данные в одном месте.",
+      "keysTitle": "Клавиатура",
+      "search": "Поиск",
+      "close": "Закрыть окно / очистить поиск",
+      "open": "Открыть выбранную карточку",
+      "privacy": "Настройки хранятся в localStorage — тема и язык, больше ничего."
+    },
+    "footer": {
+      "note": "Независимый каталог ИИ, собранный вручную.",
+      "rights": "© {year} Neural Bento. Сделано на чистом JS.",
+      "top": "Наверх"
+    },
+    "a11y": {
+      "theme": "Переключить тему",
+      "modelList": "ИИ-модели",
+      "modal": "Информация о модели",
+      "home": "Neural Bento — на главную",
+      "primaryNav": "Основная навигация",
+      "openMeter": "Open-source и локальные модели"
+    }
+  }
+}

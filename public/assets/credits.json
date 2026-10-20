@@ -1,0 +1,200 @@
+{
+  "generatedBy": "scripts/sync-assets.mjs",
+  "logos": {
+    "source": "LobeHub Icons",
+    "version": "1.95.1",
+    "license": "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+    "files": [
+      {
+        "file": "openai",
+        "slug": "openai",
+        "source": "https://unpkg.com/@lobehub/icons-static-svg@1.95.1/icons/openai.svg",
+        "bytes": 1687
+      },
+      {
+        "file": "claude",
+        "slug": "claude-color",
+        "source": "https://unpkg.com/@lobehub/icons-static-svg@1.95.1/icons/claude-color.svg",
+        "bytes": 1696
+      },
+      {
+        "file": "deepseek",
+        "slug": "deepseek-color",
+        "source": "https://unpkg.com/@lobehub/icons-static-svg@1.95.1/icons/deepseek-color.svg",
+        "bytes": 2164
+      },
+      {
+        "file": "gemini",
+        "slug": "gemini-color",
+        "source": "https://unpkg.com/@lobehub/icons-static-svg@1.95.1/icons/gemini-color.svg",
+        "bytes": 2836
+      },
+      {
+        "file": "midjourney",
+        "slug": "midjourney",
+        "source": "https://unpkg.com/@lobehub/icons-static-svg@1.95.1/icons/midjourney.svg",
+        "bytes": 4012
+      },
+      {
+        "file": "suno",
+        "slug": "suno",
+        "source": "https://unpkg.com/@lobehub/icons-static-svg@1.95.1/icons/suno.svg",
+        "bytes": 308
+      },
+      {
+        "file": "cursor",
+        "slug": "cursor",
+        "source": "https://unpkg.com/@lobehub/icons-static-svg@1.95.1/icons/cursor.svg",
+        "bytes": 547
+      },
+      {
+        "file": "opencode",
+        "slug": "opencode",
+        "source": "https://unpkg.com/@lobehub/icons-static-svg@1.95.1/icons/opencode.svg",
+        "bytes": 235
+      },
+      {
+        "file": "runway",
+        "slug": "runway",
+        "source": "https://unpkg.com/@lobehub/icons-static-svg@1.95.1/icons/runway.svg",
+        "bytes": 752
+      },
+      {
+        "file": "sora",
+        "slug": "sora-color",
+        "source": "https://unpkg.com/@lobehub/icons-static-svg@1.95.1/icons/sora-color.svg",
+        "bytes": 4567
+      },
+      {
+        "file": "ollama",
+        "slug": "ollama",
+        "source": "https://unpkg.com/@lobehub/icons-static-svg@1.95.1/icons/ollama.svg",
+        "bytes": 3290
+      },
+      {
+        "file": "meta",
+        "slug": "meta-color",
+        "source": "https://unpkg.com/@lobehub/icons-static-svg@1.95.1/icons/meta-color.svg",
+        "bytes": 6022
+      },
+      {
+        "file": "elevenlabs",
+        "slug": "elevenlabs",
+        "source": "https://unpkg.com/@lobehub/icons-static-svg@1.95.1/icons/elevenlabs.svg",
+        "bytes": 236
+      },
+      {
+        "file": "perplexity",
+        "slug": "perplexity-color",
+        "source": "https://unpkg.com/@lobehub/icons-static-svg@1.95.1/icons/perplexity-color.svg",
+        "bytes": 603
+      },
+      {
+        "file": "comfyui",
+        "slug": "comfyui-color",
+        "source": "https://unpkg.com/@lobehub/icons-static-svg@1.95.1/icons/comfyui-color.svg",
+        "bytes": 840
+      },
+      {
+        "file": "flux",
+        "slug": "flux",
+        "source": "https://unpkg.com/@lobehub/icons-static-svg@1.95.1/icons/flux.svg",
+        "bytes": 438
+      }
+    ]
+  },
+  "previews": {
+    "source": "Unsplash",
+    "license": "https://unsplash.com/license",
+    "photos": [
+      {
+        "id": "chatgpt",
+        "photoId": "1516321318423-f06f85e504b3",
+        "source": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&h=900&q=80",
+        "bytes": 167082
+      },
+      {
+        "id": "claude",
+        "photoId": "1455390582262-044cdead277a",
+        "source": "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1600&h=900&q=80",
+        "bytes": 129213
+      },
+      {
+        "id": "deepseek",
+        "photoId": "1558494949-ef010cbdcc31",
+        "source": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&h=900&q=80",
+        "bytes": 330324
+      },
+      {
+        "id": "gemini",
+        "photoId": "1451187580459-43490279c0fa",
+        "source": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&h=900&q=80",
+        "bytes": 184508
+      },
+      {
+        "id": "midjourney",
+        "photoId": "1547891654-e66ed7ebb968",
+        "source": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?auto=format&fit=crop&w=1600&h=900&q=80",
+        "bytes": 504604
+      },
+      {
+        "id": "suno",
+        "photoId": "1493225457124-a3eb161ffa5f",
+        "source": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1600&h=900&q=80",
+        "bytes": 135186
+      },
+      {
+        "id": "cursor-opencode",
+        "photoId": "1555066931-4365d14bab8c",
+        "source": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1600&h=900&q=80",
+        "bytes": 143813
+      },
+      {
+        "id": "runway-sora",
+        "photoId": "1485846234645-a62644f84728",
+        "source": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1600&h=900&q=80",
+        "bytes": 180889
+      },
+      {
+        "id": "ollama-llama",
+        "photoId": "1518770660439-4636190af475",
+        "source": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&h=900&q=80",
+        "bytes": 268516
+      },
+      {
+        "id": "elevenlabs",
+        "photoId": "1478737270239-2f02b77fc618",
+        "source": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=1600&h=900&q=80",
+        "bytes": 117233
+      },
+      {
+        "id": "perplexity",
+        "photoId": "1481627834876-b7833e8f5570",
+        "source": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=1600&h=900&q=80",
+        "bytes": 163366
+      },
+      {
+        "id": "comfyui-flux",
+        "photoId": "1541701494587-cb58502866ab",
+        "source": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=1600&h=900&q=80",
+        "bytes": 252550
+      }
+    ]
+  },
+  "brandIcons": {
+    "source": "Simple Icons",
+    "license": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+    "files": [
+      {
+        "file": "github",
+        "source": "https://cdn.jsdelivr.net/npm/simple-icons@16.35.0/icons/github.svg",
+        "bytes": 822
+      }
+    ]
+  },
+  "uiIcons": {
+    "source": "Lucide",
+    "package": "lucide-static",
+    "license": "https://lucide.dev/license"
+  }
+}

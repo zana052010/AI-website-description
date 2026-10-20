@@ -1,0 +1,138 @@
+# Role & Objective
+Act as a Senior Frontend Architect and UI/UX Engineer. Build a complete, production-ready, interactive web application: an **AI & Neural Networks Bento-Grid Showcase & Directory** (serving as a high-end portfolio project). 
+
+Write complete, functional code for all files without placeholders or `// TODO` comments.
+
+---
+
+# 1. Tech Stack & Tooling
+- **Build Tool:** Vite (Vanilla JS template).
+- **Markup & Styling:** Semantic HTML5 + Tailwind CSS (via PostCSS/Vite plugin or modern config) + custom CSS variables for smooth theming and Bento grid responsiveness.
+- **Scripting:** Modular Vanilla JavaScript (ES6+ modules, clean state management, zero heavy frontend frameworks).
+- **Icons:** Lucide icons (via CDN or lightweight SVG sprite/inline SVGs).
+- **Deployment Target:** GitHub Pages (include `vite.config.js` with relative base path `base: './'` and a complete `.github/workflows/deploy.yml` GitHub Actions workflow).
+
+---
+
+# 2. Project File Structure
+Generate and populate the following exact project structure:
+```text
+├── .github/
+│   └── workflows/
+│       └── deploy.yml          # Automated GitHub Pages deployment
+├── index.html                  # Main entry point with semantic structure
+├── package.json                # Dependencies (vite, tailwindcss, etc.)
+├── vite.config.js              # Configured with base: './' for GitHub Pages
+├── tailwind.config.js          # Configured with darkMode: 'class'
+├── postcss.config.js
+└── src/
+    ├── style.css               # Tailwind imports, glassmorphism, Bento grid definitions, animations
+    ├── main.js                 # App initialization, state management, event listeners, rendering
+    ├── i18n/
+    │   └── translations.json   # UI dictionary for RU and EN languages
+    └── data/
+        └── ai-models.json      # Rich dataset of AI models with bilingual (RU/EN) descriptions
+3. Core Architecture & Features
+A. Apple-Style Bento Grid Layout
+Design a responsive multi-column CSS Grid (grid-cols-1 md:grid-cols-4 lg:grid-cols-6, auto-rows-[minmax(140px,auto)], gap-4).
+
+Support dynamic card spans defined in the data (col-span-2 row-span-2 for Featured Giants, col-span-2 row-span-1 for Medium cards, col-span-1 row-span-1 for compact cards/widgets).
+
+Visual Aesthetic: Apple/Linear-inspired Bento aesthetic with subtle 1px borders (border-white/10 in dark mode, border-black/10 in light mode), soft backdrop blur, hover glow/elevation micro-interactions, and clean typography (Inter / JetBrains Mono for tags).
+
+B. Top Bento Dashboard (Control & Hero Tiles)
+Hero Tile (Large, e.g., col-span-1 md:col-span-4 lg:col-span-4 row-span-2):
+
+Project title, badge, and concise description explaining the directory of modern AI capabilities.
+
+Live Search Input (instant filtering by model name, capability, or tag with keyboard shortcut / focus support).
+
+Category Filter Pills: All, Text & Reasoning, Coding, Image Gen, Video Gen, Audio & Voice, Open-Source / Local.
+
+Control Widget Tiles (Compact 1x1 or 2x1 tiles):
+
+Theme Toggle Tile: Smooth switch between Dark Mode (default, sleek obsidian/zinc palette) and Light Mode (clean alabaster/slate palette). Persist choice in localStorage.
+
+Language Toggle Tile (RU / EN): Instant reactive language switching without page reload. Updates all static UI strings from translations.json and model descriptions from ai-models.json. Persist in localStorage.
+
+Live Stats Widget Tile: Dynamically displays total AI models count, total categories, and percentage of Open-Source/Free models in the dataset.
+
+C. AI Models Bento Grid (Data-Driven from src/data/ai-models.json)
+Populate src/data/ai-models.json with at least 12 diverse AI tools, completely translated into both ru and en:
+
+Featured Giants (Large 2x2 cards):
+
+ChatGPT / OpenAI (GPT-4o / o-series) — Multimodal reasoning, voice, canvas, ecosystem.
+
+Claude (Anthropic) — Superior coding, nuanced writing, Artifacts, large context window.
+
+DeepSeek (R1 / V-series) — High-efficiency reasoning, coding powerhouse, open-weights leadership.
+
+Google Gemini — Massive 1M–2M token native multimodal context (video/audio/code), deep ecosystem integration.
+
+Midjourney — Photorealistic and artistic image synthesis, style consistency, web editor.
+
+Suno AI — Full song generation (vocals, instruments, lyrics) across genres in seconds.
+
+Specialized & Medium/Small Cards (2x1 or 1x1):
+7. OpenCode / Cursor — AI-native terminal and IDE coding agents for autonomous software engineering.
+8. Runway Gen-3 / Sora — Cinematic AI video generation, motion brush, physics-aware scenes.
+9. Ollama & Llama — Running local, private, uncensored open-source LLMs directly on consumer hardware.
+10. ElevenLabs — Ultra-realistic voice cloning, text-to-speech, and AI audio dubbing.
+11. Perplexity AI — Real-time AI search engine with verified citations and deep research.
+12. ComfyUI / Flux — Node-based modular workflow engine and state-of-the-art open-weights image generation.
+
+Each model object in ai-models.json must include:
+
+id, name, provider, category (array of category slugs), gridSpan ("large", "medium", "small"), accentColor (hex/tailwind gradient), icon (SVG identifier or emoji), officialUrl, pricingModel ("Freemium", "Free / Open-Source", "Paid"), localRun (boolean).
+
+Localized content object i18n: { ru: {...}, en: {...} } containing:
+
+tagline: Short card summary.
+
+description: Detailed overview for the modal.
+
+capabilities: Array of 4-5 key things it can do.
+
+useCases: Array of 3 practical real-world prompts/scenarios.
+
+pros: Array of strengths.
+
+cons: Array of limitations.
+
+benchmarks: Object with scores (1-10) for coding, reasoning, creativity, multimodality, speed.
+
+D. Interactive Detail Modal / Drawer
+Clicking any AI card opens a sleek, accessible modal dialog (with backdrop blur, Escape key support, and click-outside-to-close).
+
+Displays full model details: Provider badge, Pricing badge, Local/Cloud indicator, full description, Capabilities list, Practical Use Cases, Pros vs. Cons comparison, visual progress bars for its benchmarks scores, and a direct "Try Official Platform ↗" CTA button.
+
+E. Capabilities Comparison Matrix Tile (Wide Bento Tile, full width col-span-full)
+A dedicated interactive comparison card inside the Bento layout highlighting "Who leads where?":
+
+Visual comparison table or interactive radar/bar chart comparing top models across key tasks: Best for Architecture & Coding, Best for Long Context & Docs, Best for Photorealistic Art, Best for Local/Private Execution, Best for Audio/Music.
+
+F. Creator / Portfolio Tile (Compact Bento Card)
+A dedicated, stylish portfolio card ("Created & Architected by...") featuring developer bio, tech stack badges used in this project (Vite, Tailwind, Vanilla JS, Bento UI), and links to GitHub, Telegram, and Portfolio.
+
+4. Implementation & Quality Guidelines
+Zero Broken States: Searching and filtering must smoothly animate cards in/out and display a clean "No AI models match your query" empty state with a "Reset filters" button if nothing matches.
+
+Clean State Architecture: Keep application state (currentLang, currentTheme, activeCategory, searchQuery, selectedModelId) centralized in src/main.js with clean render functions.
+
+GitHub Pages Readiness:
+
+Ensure all JSON imports use standard ES module imports (import modelsData from './data/ai-models.json') so Vite bundles them cleanly without broken fetch paths on GitHub Pages subdirectories.
+
+Provide a complete .github/workflows/deploy.yml using actions/checkout@v4, actions/setup-node@v4, npm ci, npm run build, actions/upload-pages-artifact@v3, and actions/deploy-pages@v4.
+
+Execution Steps
+Initialize the project configuration files (package.json, vite.config.js, tailwind.config.js, postcss.config.js, .github/workflows/deploy.yml).
+
+Create src/i18n/translations.json and src/data/ai-models.json with rich, accurate, bilingual (RU/EN) data.
+
+Build index.html and src/style.css with custom Bento grid utilities and smooth theme transitions.
+
+Implement src/main.js with full interactivity, filtering, search, modal controller, and language/theme persistence.
+
+Verify the build runs cleanly via npm install && npm run build.

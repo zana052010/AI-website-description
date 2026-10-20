@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#09090B" />
+    <meta name="color-scheme" content="dark light" />
+    <meta
+      id="meta-description"
+      name="description"
+      content="A hand-curated directory of modern AI models: reasoning, coding, image, video, audio and local open-source tools."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Neural Bento — AI & Neural Networks Directory" />
+    <meta
+      property="og:description"
+      content="A hand-curated bento directory of modern AI models: reasoning, coding, image, video, audio and local open-source tools."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>Neural Bento — AI & Neural Networks Directory</title>
+
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      // Restore theme and language before first paint to avoid a flash.
+      (function () {
+        try {
+          var theme = localStorage.getItem('neural-bento:theme') === 'light' ? 'light' : 'dark';
+          var lang = localStorage.getItem('neural-bento:lang');
+          if (lang !== 'ru' && lang !== 'en') {
+            lang = (navigator.language || 'en').toLowerCase().indexOf('ru') === 0 ? 'ru' : 'en';
+          }
+          document.documentElement.classList.toggle('dark', theme !== 'light');
+          document.documentElement.dataset.theme = theme;
+          document.documentElement.lang = lang;
+          var themeMeta = document.querySelector('meta[name="theme-color"]');
+          if (themeMeta) themeMeta.setAttribute('content', theme === 'light' ? '#F8F8F7' : '#09090B');
+        } catch (error) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#directory" data-i18n="nav.skip">Skip to directory</a>
+
+    <div class="flex min-h-screen flex-col">
+      <header class="site-header">
+        <div class="mx-auto flex min-h-16 max-w-[1440px] flex-wrap items-center justify-between gap-x-4 gap-y-2 px-4 py-2 sm:px-6 lg:px-8">
+          <a
+            href="#top"
+            class="flex items-center gap-2.5"
+            aria-label="Neural Bento — home"
+            data-i18n-aria="a11y.home"
+          >
+            <span class="brand-mark" aria-hidden="true">
+              <span class="icon-slot h-4 w-4" data-icon="layout-grid"></span>
+            </span>
+            <span class="flex flex-col leading-none">
+              <span class="text-[0.9375rem] font-semibold tracking-[-0.01em]">Neural Bento</span>
+              <span
+                class="mt-1 font-mono text-[0.75rem] uppercase tracking-[0.06em] text-[color:var(--text-tertiary)]"
+                data-i18n="nav.subtitle"
+                >AI Directory · 2026</span
+              >
+            </span>
+          </a>
+
+          <nav
+            class="hidden items-center gap-1 md:flex"
+            aria-label="Primary"
+            data-i18n-aria="a11y.primaryNav"
+          >
+            <a class="nav-link" href="#directory" data-i18n="nav.directory">Directory</a>
+            <a class="nav-link" href="#matrix" data-i18n="nav.matrix">Matrix</a>
+            <a class="nav-link" href="#about" data-i18n="nav.about">About</a>
+          </nav>
+
+          <div class="flex items-center gap-2">
+            <span class="meta-pill hidden gap-1.5 px-2.5 py-1 xs:inline-flex" aria-hidden="true">
+              <span class="pulse-dot"></span>
+              2026
+            </span>
+            <a
+              class="nav-link header-link"
+              href="https://github.com/zana052010"
+              data-creator-link="github"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="icon-slot h-3.5 w-3.5" data-icon="github"></span>
+              <span data-i18n="nav.github">GitHub</span>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main id="top" class="mx-auto w-full max-w-[1440px] flex-1 scroll-mt-20 px-4 pb-16 pt-6 sm:px-6 lg:px-8">
+        <!-- Dashboard -->
+        <section
+          class="grid auto-rows-[minmax(140px,auto)] grid-cols-1 gap-4 md:grid-cols-4 lg:grid-cols-6"
+          aria-labelledby="hero-title"
+        >
+          <article
+            class="bento-card hero row-span-1 flex flex-col p-5 sm:p-8 md:col-span-4 md:row-span-2 lg:col-span-4"
+          >
+            <div class="relative z-10 flex h-full flex-col">
+              <div class="flex flex-wrap items-center gap-2">
+                <span class="meta-pill">
+                  <span class="pulse-dot" aria-hidden="true"></span>
+                  <span data-i18n="hero.badge">AI & neural networks · 2026 directory</span>
+                </span>
+                <span
+                  id="hero-meta"
+                  class="hidden font-mono text-[0.6875rem] uppercase tracking-[0.06em] text-[color:var(--text-tertiary)] sm:inline"
+                  >12 models · 6 categories</span
+                >
+              </div>
+
+              <h1
+                id="hero-title"
+                class="mt-6 max-w-3xl text-balance text-[2.25rem] font-semibold leading-[1.1] tracking-[-0.02em] text-[color:var(--text)] sm:text-[3rem] lg:text-[3.5rem]"
+              >
+                <span data-i18n="hero.titleLine1">AI & neural networks,</span>
+                <span class="mt-1 block text-[color:var(--text-tertiary)]" data-i18n="hero.titleLine2"
+                  >in one bento box.</span
+                >
+              </h1>
+
+              <p
+                class="mt-5 max-w-[62ch] text-[0.9375rem] leading-[1.6] text-pretty text-[color:var(--text-secondary)]"
+                data-i18n="hero.description"
+              >
+                A hand-curated directory of the models shaping how we think, build, see and hear. Search the stack,
+                filter by craft, and open any card for the full dossier.
+              </p>
+
+              <div class="mt-auto pt-8">
+                <label class="eyebrow mb-2 block" for="search-input" data-i18n="hero.searchLabel"
+                  >Search AI models</label
+                >
+                <div class="search-shell" role="search">
+                  <span class="icon-slot h-4 w-4 text-[color:var(--text-tertiary)]" data-icon="search"></span>
+                  <input
+                    id="search-input"
+                    class="search-input"
+                    type="text"
+                    role="searchbox"
+                    name="search"
+                    inputmode="search"
+                    autocomplete="off"
+                    autocapitalize="off"
+                    spellcheck="false"
+                    enterkeyhint="search"
+                    aria-controls="models-grid"
+                    aria-keyshortcuts="/ Control+K Meta+K Enter"
+                    data-i18n-placeholder="hero.searchPlaceholder"
+                    placeholder="Search models, capabilities or tags…"
+                  />
+                  <span id="search-kbd" class="search-kbd" aria-hidden="true">/</span>
+                  <button
+                    id="search-clear"
+                    class="search-clear"
+                    type="button"
+                    hidden
+                    aria-label="Clear search"
+                    data-i18n-aria="hero.clear"
+                  >
+                    <span class="icon-slot h-3.5 w-3.5" data-icon="x"></span>
+                  </button>
+                </div>
+
+                <div
+                  id="filter-pills"
+                  class="mt-3 flex flex-wrap items-center gap-1.5"
+                  role="group"
+                  aria-label="Filter by category"
+                  data-i18n-aria="filters.label"
+                ></div>
+              </div>
+            </div>
+          </article>
+
+          <button
+            id="theme-toggle"
+            class="bento-card control-tile group md:col-span-2 lg:col-span-1"
+            type="button"
+            aria-label="Appearance: Dark mode. Switch to light mode."
+          >
+            <span class="flex w-full items-start justify-between gap-3">
+              <span class="icon-orb" aria-hidden="true">
+                <span class="icon-slot theme-icon theme-icon-moon h-4 w-4" data-icon="moon"></span>
+                <span class="icon-slot theme-icon theme-icon-sun h-4 w-4" data-icon="sun"></span>
+              </span>
+              <span class="switch" aria-hidden="true"><span class="switch-thumb"></span></span>
+            </span>
+            <span class="mt-auto block pt-5">
+              <span class="tile-label" data-i18n="controls.appearance">Appearance</span>
+              <span class="tile-value" id="theme-value">Dark mode</span>
+            </span>
+          </button>
+
+          <div class="bento-card control-tile md:col-span-2 lg:col-span-1">
+            <span class="flex w-full items-start justify-between gap-3">
+              <span class="icon-orb" aria-hidden="true">
+                <span class="icon-slot h-4 w-4" data-icon="languages"></span>
+              </span>
+              <span class="font-mono text-[0.6875rem] uppercase tracking-[0.06em] text-[color:var(--text-tertiary)]"
+                >RU / EN</span
+              >
+            </span>
+            <div class="mt-auto block pt-5">
+              <span class="tile-label" data-i18n="controls.language">Language</span>
+              <div
+                id="language-toggle"
+                class="segmented mt-2"
+                role="group"
+                aria-label="Interface language"
+                data-i18n-aria="controls.languageLabel"
+              >
+                <button type="button" data-lang="en" aria-pressed="true">EN</button>
+                <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+              </div>
+            </div>
+          </div>
+
+          <article class="bento-card stat-tile flex flex-col p-5 md:col-span-4 lg:col-span-2" aria-labelledby="stats-title">
+            <div class="flex items-center justify-between gap-2">
+              <h2 id="stats-title" class="eyebrow" data-i18n="stats.title">Dataset pulse</h2>
+              <span class="live-pill">
+                <span class="pulse-dot" aria-hidden="true"></span>
+                <span data-i18n="stats.live">Live</span>
+              </span>
+            </div>
+
+            <dl class="stats-grid mt-5">
+              <div class="flex min-w-0 flex-col-reverse gap-1">
+                <dt class="stat-label break-words" data-i18n="stats.models">Models</dt>
+                <dd id="stat-models" class="stat-number">12</dd>
+              </div>
+              <div class="flex min-w-0 flex-col-reverse gap-1">
+                <dt class="stat-label break-words" data-i18n="stats.categories">Categories</dt>
+                <dd id="stat-categories" class="stat-number">6</dd>
+              </div>
+              <div class="flex min-w-0 flex-col-reverse gap-1">
+                <dt class="stat-label break-words" data-i18n="stats.open">Open / local</dt>
+                <dd class="stat-number">
+                  <span id="stat-open">25</span
+                  ><span class="text-sm font-normal text-[color:var(--text-tertiary)]">%</span>
+                </dd>
+              </div>
+            </dl>
+
+            <div class="mt-auto pt-5">
+              <div
+                class="meter"
+                role="progressbar"
+                aria-label="Open-source and local models"
+                data-i18n-aria="a11y.openMeter"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="25"
+                id="open-meter-track"
+              >
+                <span id="open-meter" style="width: 25%"></span>
+              </div>
+              <p class="mt-2.5 text-[0.75rem] leading-snug text-[color:var(--text-tertiary)]">
+                <span id="open-count">3</span>
+                <span id="open-note">of 12 tools run locally or ship open weights</span>
+              </p>
+            </div>
+          </article>
+        </section>
+
+        <!-- Directory -->
+        <section id="directory" class="mt-12 scroll-mt-24" aria-labelledby="directory-title" tabindex="-1">
+          <div class="mb-4 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p class="eyebrow" data-i18n="directory.eyebrow">The directory</p>
+              <div class="mt-1.5 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                <h2 id="directory-title" class="section-title" data-i18n="directory.title">
+                  Every model, one bento.
+                </h2>
+                <span
+                  class="hidden text-sm text-[color:var(--text-tertiary)] sm:inline"
+                  data-i18n="directory.description"
+                >
+                  Twelve tools worth your attention — no filler, no sponsored slots.
+                </span>
+              </div>
+            </div>
+            <div class="flex flex-wrap items-center gap-2">
+              <p id="results-copy" class="results-copy" aria-live="polite">Showing 12 of 12 models</p>
+              <button id="reset-filters" class="reset-button" type="button" hidden>
+                <span class="icon-slot h-3.5 w-3.5" data-icon="rotate-ccw"></span>
+                <span data-i18n="directory.reset">Reset filters</span>
+              </button>
+            </div>
+          </div>
+
+          <div
+            id="models-grid"
+            class="grid auto-rows-[minmax(140px,auto)] grid-flow-dense grid-cols-1 gap-4 md:grid-cols-4 lg:grid-cols-6"
+            aria-label="AI models"
+            data-i18n-aria="a11y.modelList"
+          ></div>
+        </section>
+
+        <!-- Comparison matrix -->
+        <section id="matrix" class="mt-12 scroll-mt-24" aria-labelledby="matrix-title">
+          <article class="bento-card">
+            <div
+              class="flex flex-col gap-4 border-b border-[color:var(--border)] p-6 sm:p-8 lg:flex-row lg:items-end lg:justify-between"
+            >
+              <div class="max-w-2xl">
+                <p class="eyebrow" data-i18n="matrix.eyebrow">Capability map</p>
+                <h2 id="matrix-title" class="section-title mt-1.5" data-i18n="matrix.title">Who leads where?</h2>
+                <p
+                  class="mt-2 max-w-[60ch] text-sm leading-relaxed text-pretty text-[color:var(--text-secondary)]"
+                  data-i18n="matrix.description"
+                >
+                  Five jobs, three leaders each. Ranked by the benchmarks inside every dossier — click a name to open
+                  it.
+                </p>
+              </div>
+              <span class="matrix-badge">
+                <span class="icon-slot h-3.5 w-3.5" data-icon="layers"></span>
+                <span data-i18n="matrix.rank">Ranked 1–3</span>
+              </span>
+            </div>
+
+            <div id="matrix-grid" class="matrix-grid p-4 sm:p-6"></div>
+
+            <div
+              class="flex items-start gap-2 border-t border-[color:var(--border)] px-6 py-4 text-[0.75rem] leading-relaxed text-[color:var(--text-tertiary)]"
+            >
+              <span class="icon-slot mt-0.5 h-3.5 w-3.5 shrink-0" data-icon="info"></span>
+              <p data-i18n="matrix.note">
+                Scores are editorial 1–10 ratings for relative positioning, not a universal benchmark.
+              </p>
+            </div>
+          </article>
+        </section>
+
+        <!-- Creator + notes -->
+        <section
+          id="about"
+          class="mt-4 grid scroll-mt-24 auto-rows-[minmax(140px,auto)] grid-cols-1 gap-4 md:grid-cols-4 lg:grid-cols-6"
+          aria-labelledby="creator-title"
+        >
+          <article class="bento-card p-6 md:col-span-4 lg:col-span-3">
+            <div class="flex items-start justify-between gap-4">
+              <span class="avatar" aria-hidden="true">Z</span>
+              <span class="chip">2026</span>
+            </div>
+
+            <p class="eyebrow mt-5" data-i18n="creator.eyebrow">Behind the build</p>
+            <h2
+              id="creator-title"
+              class="mt-2 text-2xl font-semibold tracking-[-0.015em] text-[color:var(--text)]"
+              data-i18n="creator.title"
+            >
+              Created & architected by Zana.
+            </h2>
+            <p class="mt-3 max-w-[60ch] text-sm leading-relaxed text-pretty text-[color:var(--text-secondary)]" data-i18n="creator.bio">
+              Frontend architect and AI product engineer. I build interfaces that make complex systems feel obvious —
+              fast, accessible, and a little bit alive.
+            </p>
+
+            <div class="mt-5">
+              <p class="eyebrow" data-i18n="creator.stack">Built with</p>
+              <div class="mt-2 flex flex-wrap gap-1.5">
+                <span class="stack-badge">Vite</span>
+                <span class="stack-badge">Tailwind CSS</span>
+                <span class="stack-badge">Vanilla JS</span>
+                <span class="stack-badge">Bento UI</span>
+                <span class="stack-badge">Lucide</span>
+              </div>
+            </div>
+
+            <div class="mt-5 flex flex-wrap gap-2">
+              <a
+                class="social-link"
+                href="https://github.com/zana052010"
+                data-creator-link="github"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="icon-slot h-3.5 w-3.5" data-icon="github"></span>
+                <span data-i18n="creator.github">GitHub</span>
+              </a>
+              <a
+                class="social-link"
+                href="https://t.me/zana05001"
+                data-creator-link="telegram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="icon-slot h-3.5 w-3.5" data-icon="send"></span>
+                <span data-i18n="creator.telegram">Telegram</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="bento-card p-6 md:col-span-4 lg:col-span-3">
+            <p class="eyebrow" data-i18n="shortcuts.eyebrow">Field notes</p>
+            <h2
+              class="mt-2 text-2xl font-semibold tracking-[-0.015em] text-[color:var(--text)]"
+              data-i18n="shortcuts.title"
+            >
+              A directory that gets out of the way.
+            </h2>
+            <p class="mt-3 max-w-[60ch] text-sm leading-relaxed text-pretty text-[color:var(--text-secondary)]" data-i18n="shortcuts.text">
+              No frameworks, no tracking, no server round-trips. Just semantic HTML, vanilla JavaScript and data kept
+              in one place.
+            </p>
+
+            <div class="mt-5 rounded-xl border border-[color:var(--border)] bg-[color:var(--surface-2)] p-4">
+              <p class="eyebrow" data-i18n="shortcuts.keysTitle">Keyboard</p>
+              <ul class="mt-3 space-y-2">
+                <li class="shortcut-row">
+                  <span data-i18n="shortcuts.search">Focus search</span>
+                  <span class="flex items-center gap-1">
+                    <kbd class="kbd">/</kbd>
+                    <kbd class="kbd" id="kbd-command">Ctrl K</kbd>
+                  </span>
+                </li>
+                <li class="shortcut-row">
+                  <span data-i18n="shortcuts.close">Close modal / clear search</span>
+                  <kbd class="kbd">Esc</kbd>
+                </li>
+                <li class="shortcut-row">
+                  <span data-i18n="shortcuts.open">Open focused card</span>
+                  <kbd class="kbd">↵</kbd>
+                </li>
+              </ul>
+            </div>
+
+            <p class="mt-4 flex items-start gap-2 text-xs leading-relaxed text-[color:var(--text-tertiary)]">
+              <span class="icon-slot mt-0.5 h-3.5 w-3.5 shrink-0" data-icon="lock"></span>
+              <span data-i18n="shortcuts.privacy">
+                Preferences stay in localStorage — theme, language, nothing else.
+              </span>
+            </p>
+          </article>
+        </section>
+      </main>
+
+      <footer class="border-t border-[color:var(--border)]">
+        <div
+          class="mx-auto flex max-w-[1440px] flex-col gap-4 px-4 py-8 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8"
+        >
+          <div class="flex items-center gap-2.5">
+            <span class="brand-mark h-8 w-8 rounded-lg" aria-hidden="true">
+              <span class="icon-slot h-3.5 w-3.5" data-icon="layout-grid"></span>
+            </span>
+            <div>
+              <p class="text-sm font-semibold tracking-[-0.02em]">Neural Bento</p>
+              <p class="text-[0.75rem] text-[color:var(--text-tertiary)]" data-i18n="footer.note">
+                An independent, hand-built AI directory.
+              </p>
+            </div>
+          </div>
+
+          <p id="footer-rights" class="text-[0.75rem] text-[color:var(--text-tertiary)]">
+            © 2026 Neural Bento. Crafted with vanilla JS.
+          </p>
+
+          <button id="back-to-top" class="reset-button" type="button">
+            <span class="icon-slot h-3.5 w-3.5" data-icon="arrow-up"></span>
+            <span data-i18n="footer.top">Back to top</span>
+          </button>
+        </div>
+      </footer>
+    </div>
+
+    <dialog id="model-modal" class="model-modal" aria-labelledby="modal-title" aria-label="Model details" data-i18n-aria="a11y.modal">
+      <div id="modal-panel" class="modal-panel"></div>
+    </dialog>
+
+    <noscript>
+      <div class="fixed inset-x-4 bottom-4 z-50 rounded-xl border border-[color:var(--border-strong)] bg-[color:var(--surface)] p-4 text-sm text-[color:var(--text)] shadow-lg">
+        Neural Bento needs JavaScript to search, filter and open model dossiers. Please enable JavaScript and reload.
+      </div>
+    </noscript>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

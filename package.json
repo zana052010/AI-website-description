@@ -1,0 +1,23 @@
+{
+  "name": "neural-bento",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A bento-grid showcase and directory of modern AI models.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sync:assets": "node scripts/sync-assets.mjs"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "lucide-static": "^1.60.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.0.5"
+  }
+}
